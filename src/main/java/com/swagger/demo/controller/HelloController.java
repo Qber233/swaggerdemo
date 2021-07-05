@@ -24,7 +24,7 @@ public class HelloController {
         return new Stu();
     }
 
-    @ApiOperation("Stu控制类2216564")
+    @ApiOperation("Stu控制类264")
     @PostMapping("sut123")
     public Stu stu123(@ApiParam("年龄")int age,@ApiParam("姓名")String name){
         return new Stu();
